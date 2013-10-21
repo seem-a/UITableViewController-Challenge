@@ -1,5 +1,5 @@
 //
-//  TVViewController.h
+//  TVTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Seema Mehta on 21/10/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TVViewController : UIViewController
+@interface TVTableViewController : UITableViewController
 
 @end
