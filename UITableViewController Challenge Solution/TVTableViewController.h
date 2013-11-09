@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TVAddSpaceObjectViewController.h"
 
-@interface TVTableViewController : UITableViewController
+@interface TVTableViewController : UITableViewController <TVAddSpaceObjectViewControllerDelegate>
+
+@property (strong, nonatomic) NSMutableArray *planets;
+
+@property (strong, nonatomic) NSMutableArray *addedSpaceObjects;
 
 @end
